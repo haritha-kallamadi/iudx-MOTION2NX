@@ -1229,7 +1229,7 @@ tensor::TensorCP BEAVYProvider::make_tensor_relu_op(const tensor::TensorCP in) {
   gate_register_.register_gate(std::move(tensor_op));
   return output;
 }
-
+  ///
 template <typename T>
 tensor::TensorCP BEAVYProvider::basic_make_tensor_relu_op(const tensor::TensorCP in_bool,
                                                           const tensor::TensorCP in_arith) {
